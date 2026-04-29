@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { init } from \"./init\";\nimport { isSsr } from \"./Utils/Utils\";\nconst tsParticles = init();\nif (!isSsr()) {\n  window.tsParticles = tsParticles;\n}\nexport * from \"./exports\";\nexport * from \"./export-types\";\nexport { tsParticles };","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

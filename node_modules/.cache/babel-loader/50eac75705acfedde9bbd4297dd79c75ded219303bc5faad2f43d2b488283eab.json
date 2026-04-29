@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class CollisionsAbsorb {\n  constructor() {\n    this.speed = 2;\n  }\n  load(data) {\n    if (!data) {\n      return;\n    }\n    if (data.speed !== undefined) {\n      this.speed = data.speed;\n    }\n  }\n}","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}
